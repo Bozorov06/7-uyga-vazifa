@@ -1,0 +1,195 @@
+:root{
+    __black: #363738;
+    __dark-gray: #6B6B6C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "PT Sans",sans-serif;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icons,.icons2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    padding-left: 64px;
+}
+
+.icons h4{
+    margin-bottom: 16px;
+}
+.icons2 h4{
+    margin-bottom: 16px;
+}
+
+h4{
+    font-family: "Exo 2",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(__black);
+}
+
+p{
+   font-weight: 400;
+   color: var(__dark-gray);
+   width: 70%;
+}
+
+
+ h2{
+    font-family: "Exo 2",sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(__black);
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
+.title p{
+    font-weight: 400;
+    color: var(__dark-gray);
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 56px;
+}
+
+.block{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #0000001F;
+}
+
+.block>img{
+    width: 100%;
+}
+
+.block>h3{
+    font-family: "Exo 2",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+   padding-left: 32px;
+   padding-top: 24px;
+   padding-bottom: 16px;
+}
+
+.block>p{
+    font-weight: 400;
+    color: var(__dark-gray);
+    width: 90%;
+    padding-left: 32px;
+    padding-bottom: 24px;
+}
+
+
+.block>a{
+    font-family:" Exo 2",sans-serif;
+    font-weight: 600;
+    color: #363738;
+    border-bottom: 3px solid #FFCE50;
+    text-decoration: none;
+    padding-left: 32px;
+   
+}
+
+.block-etapi{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+    padding: 32px 96px;
+    border-radius: 10px;
+     box-shadow: 0px 4px 15px 0px #0000001F;
+}
+
+.texts h3{
+    font-family: "Exo 2",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(__black);
+    margin-bottom: 48px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.card2{
+    border-left: 2px solid #ccc;
+    padding-left: 60px;
+    text-align: center;
+
+}
+
+.card{
+    text-align: center;
+}
+
+.card h4{
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.card2 h4{
+    margin-top: 45px;
+    margin-bottom: 14px;
+}
+
+.card p{
+    width: 100%;
+}
+
+.card2 p{
+    width: 100%;
+}
+
+.card1{
+    margin-left: -10px;
+    text-align: center;
+}
+
+.card1 h4{
+    margin-top: 45px;
+    margin-bottom: 14px;
+}
+.card1 p{
+    width: 100%;
+}
+
+.card3{
+    border-left: 2px solid #ccc;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.card3 h4{
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+.card3 p{
+    width: 100%;
+}
